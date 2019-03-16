@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+h1{font-size: 36px; text-align: center;}
+
+.section-box{width: 800px; margin: 0 auto;}
+.section-box h2{margin-bottom: 30px;}
+
+label,h2 {font-size: 18px;font-weight: 700;}
+
+.form-table{width: 100%; margin-bottom: 50px;}
+.form-table th, .form-table td{line-height: 1.5;}
+.form-table th{width: 40%;}
+.form-table td{}
+
+.form_wrap{width: 800px; margin: 50px auto;}
+
+.must {color: #F00; font-size: 15px; margin-left: 10px; font-weight: normal;}
+input[type='checkbox']{margin: 0 5px;}
+input[type='text'], input[type="email"]{width:300px; padding:5px;font-size: 18px;margin-top:5px;}
+
+input[type='radio']{margin:0 5px 10px 15px}
+input[type='text'].inputother{width:500px; padding:5px;font-size: 15px;}
+input[type='text'].exnumber{width: 36px;padding: 5px;font-size: 15px;margin: 0 5px;}
+input[type="submit"].btn_confirm,input[type="submit"].btn_submit,input[type="submit"].btn_back,.btn_contact a{
+    width: 270px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+    color: #ffffff; /* 文字色 */
+    background: #49a9d4;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0;
+    border-bottom : 1px solid #757575 ;
+    margin:20px auto;
+}
+input[type="submit"].btn_back{background: #777;}
+
+input[type="submit"]:hover,input[type="button"]:hover,.btn_contact:hover {opacity: 0.5;}
+
+.btn_area{text-align:center;}
+
+.confirm_wrap p{font-weight:700;}
+.confirm_wrap p span{font-weight:normal;}
+
+textarea{padding:5px; width:100%;}
+
+span.alert{
+    display: block;
+    color: #f00;
+    font-size: 15px;
+}
